@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-success: #28a745;
+    --color-danger: #dc3545;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+form fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+form label {
+    width: 15em;
+    display: inline-block;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.form-group input, .form-group select {
+    height: 2em;
+    font-size: 1.7rem;
+    width: 12em;
+}
+
+.form-group input[type=number]:hover::-webkit-inner-spin-button {  
+    height: 2em;
+}
+
+.button {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: #f6f6f6;
+    font-size: 1.8rem;
+}
+
+.button:disabled, .button.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.button-primary {
+    background-color: var(--color-success);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+}
+
+.table td, .table th {
+    border-top: 1px solid #dee2e6;
+    padding: 0.75em;
+}
+
+.success {
+    background-color: var(--color-success);
+}
+
+.danger {
+    background-color: var(--color-danger);
+}
+
+input[type=number].table-number {
+    width: 4em;
+    height: 1.7em;
+}
+
+input[type=number].table-number:hover::-webkit-inner-spin-button {  
+    height: 2em;
+}
